@@ -3,27 +3,27 @@
 @tailwind utilities;
 
 @layer components {
-  /* *main* */
+  /* main */
   .main-container {
     @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;
   }
 
-  /* *Head text* */
+  /* Head Text */
   .head-text {
     @apply text-heading2-bold text-light-1;
   }
 
-  /* *Activity* */
+  /* Activity */
   .activity-card {
     @apply flex items-center gap-2 rounded-md bg-dark-2 px-7 py-4;
   }
 
-  /* *No Result* */
+  /* No Result */
   .no-result {
     @apply text-center !text-base-regular text-light-3;
   }
 
-  /* *Community Card* */
+  /* Community Card */
   .community-card {
     @apply w-full rounded-lg bg-dark-3 px-4 py-5 sm:w-96;
   }
@@ -32,12 +32,12 @@
     @apply rounded-lg bg-primary-500 px-5 py-1.5 text-small-regular !text-light-1 !important;
   }
 
-  /* *thread card*  */
+  /* thread card  */
   .thread-card_bar {
     @apply relative mt-2 w-0.5 grow rounded-full bg-neutral-800;
   }
 
-  /* *User card* */
+  /* User card */
   .user-card {
     @apply flex flex-col justify-between gap-4 max-xs:rounded-xl max-xs:bg-dark-3 max-xs:p-4 xs:flex-row xs:items-center;
   }
@@ -116,7 +116,7 @@
   }
 }
 
-/* *Clerk Responsive Fix* */
+/* Clerk Responsive fix */
 .cl-organizationSwitcherTrigger .cl-userPreview .cl-userPreviewTextContainer {
   @apply max-sm:hidden;
 }
@@ -127,18 +127,18 @@
   @apply max-sm:hidden;
 }
 
-/* *Shadcn Component Styles* */
+/* Shadcn Component Styles */
 
-/* *Tab* */
+/* Tab */
 .tab {
-  @apply flex min-h-[50px] flex-1 items-center gap-3 bg-dark-2 text-light-2 data-[state=active]:bg-[#0e0e12] data-[state-active]:text-light-2 !important;
+  @apply flex min-h-[50px] flex-1 items-center gap-3 bg-dark-2 text-light-2 data-[state=active]:bg-[#0e0e12] data-[state=active]:text-light-2 !important;
 }
 
 .no-focus {
   @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
 }
 
-/* *Account Profle* */
+/* Account Profile  */
 .account-form_image-label {
   @apply flex h-24 w-24 items-center justify-center rounded-full bg-dark-4 !important;
 }
@@ -151,7 +151,7 @@
   @apply border border-dark-4 bg-dark-3 text-light-1 !important;
 }
 
-/* *Comment Form* */
+/* Comment Form */
 .comment-form {
   @apply mt-10 flex items-center gap-4 border-y border-y-dark-4 py-5 max-xs:flex-col !important;
 }
